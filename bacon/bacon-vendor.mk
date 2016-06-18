@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,26 +18,29 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/oneplus/bacon/overlay
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    PPPreference \
-    QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener
 
 PRODUCT_PACKAGES += \
-    libHevcSwDecoder \
-    libmm-abl \
     libtime_genoff \
     libTimeService \
     TimeService
-
-PRODUCT_PACKAGES += \
-    libscale \
 
 PRODUCT_PACKAGES += \
     libwvdrmengine \
     libwvdrm_L3 \
     libwvm \
     libWVStreamControlAPI_L3
+
+PRODUCT_PACKAGES += \
+    libqmi \
+    libmdmdetect \
+    libqmiservices \
+    libidl \
+    libqcci_legacy \
+    libdiag \
+    libqmi_client_qmux \
+    libdsutils \
+    libwpa_qmi_eap_proxy
 
 $(call inherit-product, vendor/oneplus/bacon/bacon-vendor-blobs.mk)
