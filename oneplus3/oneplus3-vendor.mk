@@ -662,6 +662,7 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     QtiTetherService \
+    xtra_t_app \
     colorservice \
     ims \
     imssettings \
