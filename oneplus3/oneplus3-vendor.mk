@@ -413,7 +413,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so
 
 PRODUCT_PACKAGES += \
-    org.ifaa.android.manager \
     dashd
 
 ifeq ($(QCPATH),)
@@ -786,4 +785,5 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 endif
 
+$(call inherit-product, vendor/qcom/binaries/bluetooth/bluetooth-vendor.mk)
 $(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)
