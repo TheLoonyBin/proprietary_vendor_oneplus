@@ -103,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/lib/libSensorManagerHAL.so:system/lib/libSensorManagerHAL.so \
     vendor/oneplus/oneplus3/proprietary/lib/lib_oneplus_facebeauty.so:system/lib/lib_oneplus_facebeauty.so \
     vendor/oneplus/oneplus3/proprietary/lib/lib_oneplus_md.so:system/lib/lib_oneplus_md.so \
+    vendor/oneplus/oneplus3/proprietary/lib/lib_oneplus_watermark.so:system/lib/lib_oneplus_watermark.so \
     vendor/oneplus/oneplus3/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oneplus/oneplus3/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oneplus/oneplus3/proprietary/lib/libmms_gyro_vstab.so:system/lib/libmms_gyro_vstab.so \
@@ -512,7 +513,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/oneplus/oneplus3/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/oneplus/oneplus3/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/oneplus/oneplus3/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/oneplus/oneplus3/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/oneplus/oneplus3/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
